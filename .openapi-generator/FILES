@@ -13,7 +13,6 @@ Sources/Api/APIs/ProjectRouteAPI.swift
 Sources/Api/APIs/RevolutRouteAPI.swift
 Sources/Api/APIs/SolanaRouteAPI.swift
 Sources/Api/APIs/SquareRouteAPI.swift
-Sources/Api/APIs/UploadRouteAPI.swift
 Sources/Api/APIs/WiseAPI.swift
 Sources/Api/APIs/WiseRouteAPI.swift
 Sources/Api/Infrastructure/APIHelper.swift
@@ -56,7 +55,6 @@ Sources/Api/Models/Shot.swift
 Sources/Api/Models/Solana.swift
 Sources/Api/Models/Square.swift
 Sources/Api/Models/Status.swift
-Sources/Api/Models/Upload.swift
 Sources/Api/Models/Wise.swift
 Sources/Api/Models/WordAlignment.swift
 docs/API.md
@@ -95,8 +93,6 @@ docs/SolanaRouteAPI.md
 docs/Square.md
 docs/SquareRouteAPI.md
 docs/Status.md
-docs/Upload.md
-docs/UploadRouteAPI.md
 docs/Wise.md
 docs/WiseAPI.md
 docs/WiseRouteAPI.md

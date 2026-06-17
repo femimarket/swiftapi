@@ -11,7 +11,7 @@ import Foundation
 public struct API: Sendable, Codable, Hashable {
 
     public var action: ApiAction
-    /** filename of already uploaded audio else default */
+    /** input audio as base64 — data URI (web) or raw base64 (android/ios), empty if unused; type detected server-side */
     public var audio: String
     public var balance: Int64
     public var credit: Int64
@@ -19,7 +19,7 @@ public struct API: Sendable, Codable, Hashable {
     public var file: String
     /** uuid v7 */
     public var id: UUID
-    /** filename of already uploaded image else default */
+    /** input image as base64 — data URI (web) or raw base64 (android/ios), empty if unused; type detected server-side */
     public var image: String
     /** default value is non-empty array */
     public var messages: [ApiChatMessage]

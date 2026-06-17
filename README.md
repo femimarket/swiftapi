@@ -36,7 +36,6 @@ Class | Method | HTTP request | Description
 *RevolutRouteAPI* | [**revolut**](docs/RevolutRouteAPI.md#revolut) | **POST** /revolut | 
 *SolanaRouteAPI* | [**solana**](docs/SolanaRouteAPI.md#solana) | **POST** /solana | 
 *SquareRouteAPI* | [**square**](docs/SquareRouteAPI.md#square) | **POST** /square | 
-*UploadRouteAPI* | [**upload**](docs/UploadRouteAPI.md#upload) | **POST** /upload | 
 *WiseAPI* | [**wiseCheck**](docs/WiseAPI.md#wisecheck) | **POST** /wise_check | 
 *WiseRouteAPI* | [**wise**](docs/WiseRouteAPI.md#wise) | **POST** /wise | 
 
@@ -70,7 +69,6 @@ Class | Method | HTTP request | Description
  - [Solana](docs/Solana.md)
  - [Square](docs/Square.md)
  - [Status](docs/Status.md)
- - [Upload](docs/Upload.md)
  - [Wise](docs/Wise.md)
  - [WordAlignment](docs/WordAlignment.md)
 

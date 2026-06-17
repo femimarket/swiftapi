@@ -4,12 +4,12 @@
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **action** | [**ApiAction**](ApiAction.md) |  | 
-**audio** | **String** | filename of already uploaded audio else default | 
+**audio** | **String** | input audio as base64 — data URI (web) or raw base64 (android/ios), empty if unused; type detected server-side | 
 **balance** | **Int64** |  | 
 **credit** | **Int64** |  | 
 **file** | **String** | filename of result to retrieve | 
 **id** | **UUID** | uuid v7 | 
-**image** | **String** | filename of already uploaded image else default | 
+**image** | **String** | input image as base64 — data URI (web) or raw base64 (android/ios), empty if unused; type detected server-side | 
 **messages** | [ApiChatMessage] | default value is non-empty array | 
 **model** | [**ApiAiModel**](ApiAiModel.md) |  | 
 **pay** | [**ApiPay**](ApiPay.md) |  | 
