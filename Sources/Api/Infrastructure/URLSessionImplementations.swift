@@ -54,7 +54,9 @@ public final class URLSessionRequestBuilderFactory: RequestBuilderFactory, Senda
 
 fileprivate class URLSessionRequestBuilderConfiguration: @unchecked Sendable {
     private init() {
-        defaultURLSession = URLSession(configuration: .default, delegate: sessionDelegate, delegateQueue: nil)
+        let configuration = URLSessionConfiguration.default
+        configuration.timeoutIntervalForRequest = 120
+        defaultURLSession = URLSession(configuration: configuration, delegate: sessionDelegate, delegateQueue: nil)
     }
 
     static let shared = URLSessionRequestBuilderConfiguration()
