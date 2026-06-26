@@ -23,9 +23,7 @@ Name | Type | Description | Notes
 **orderId** | **String** |  | [optional] 
 **packageName** | **String** |  | 
 **purchaseToken** | **String** |  | 
-**characters** | [CharacterAlignment] | return | 
 **lyrics** | **String** | transcribed lyrics (return) | 
-**words** | [WordAlignment] | return | 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

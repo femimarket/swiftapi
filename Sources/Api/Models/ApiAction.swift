@@ -19,7 +19,6 @@ public enum ApiAction: Sendable, Codable, Hashable {
     case typeNanoBanana2(NanoBanana2)
     case typeQwen3635bA3b(Qwen3635bA3b)
     case typeQwen3AsrFlash(Qwen3AsrFlash)
-    case typeQwen3ForcedAligner06B(Qwen3ForcedAligner06B)
     case typeZImageTurbo(ZImageTurbo)
 
     public func encode(to encoder: Encoder) throws {
@@ -46,8 +45,6 @@ public enum ApiAction: Sendable, Codable, Hashable {
         case .typeQwen3635bA3b(let value):
             try container.encode(value)
         case .typeQwen3AsrFlash(let value):
-            try container.encode(value)
-        case .typeQwen3ForcedAligner06B(let value):
             try container.encode(value)
         case .typeZImageTurbo(let value):
             try container.encode(value)
@@ -83,8 +80,6 @@ public enum ApiAction: Sendable, Codable, Hashable {
             self = .typeNanoBanana2(try NanoBanana2(from: decoder))
         case "Qwen3AsrFlash":
             self = .typeQwen3AsrFlash(try Qwen3AsrFlash(from: decoder))
-        case "Qwen3ForcedAligner0_6B":
-            self = .typeQwen3ForcedAligner06B(try Qwen3ForcedAligner06B(from: decoder))
         case "Qwen3_6_35bA3b":
             self = .typeQwen3635bA3b(try Qwen3635bA3b(from: decoder))
         case "ZImageTurbo":

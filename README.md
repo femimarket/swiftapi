@@ -37,7 +37,6 @@ Class | Method | HTTP request | Description
  - [ApiChatRole](docs/ApiChatRole.md)
  - [ApiStatus](docs/ApiStatus.md)
  - [ApplePay](docs/ApplePay.md)
- - [CharacterAlignment](docs/CharacterAlignment.md)
  - [Charge](docs/Charge.md)
  - [ClaudeSonnet46](docs/ClaudeSonnet46.md)
  - [Flux2DevI2I](docs/Flux2DevI2I.md)
@@ -48,8 +47,6 @@ Class | Method | HTTP request | Description
  - [NanoBanana2](docs/NanoBanana2.md)
  - [Qwen3635bA3b](docs/Qwen3635bA3b.md)
  - [Qwen3AsrFlash](docs/Qwen3AsrFlash.md)
- - [Qwen3ForcedAligner06B](docs/Qwen3ForcedAligner06B.md)
- - [WordAlignment](docs/WordAlignment.md)
  - [ZImageTurbo](docs/ZImageTurbo.md)
 
 

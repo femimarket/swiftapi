@@ -25,7 +25,6 @@ Sources/Api/Models/ApiChatMessage.swift
 Sources/Api/Models/ApiChatRole.swift
 Sources/Api/Models/ApiStatus.swift
 Sources/Api/Models/ApplePay.swift
-Sources/Api/Models/CharacterAlignment.swift
 Sources/Api/Models/Charge.swift
 Sources/Api/Models/ClaudeSonnet46.swift
 Sources/Api/Models/Flux2DevI2I.swift
@@ -36,8 +35,6 @@ Sources/Api/Models/Ltx23A2V.swift
 Sources/Api/Models/NanoBanana2.swift
 Sources/Api/Models/Qwen3635bA3b.swift
 Sources/Api/Models/Qwen3AsrFlash.swift
-Sources/Api/Models/Qwen3ForcedAligner06B.swift
-Sources/Api/Models/WordAlignment.swift
 Sources/Api/Models/ZImageTurbo.swift
 docs/API.md
 docs/ApiAction.md
@@ -46,7 +43,6 @@ docs/ApiChatRole.md
 docs/ApiHandlerAPI.md
 docs/ApiStatus.md
 docs/ApplePay.md
-docs/CharacterAlignment.md
 docs/Charge.md
 docs/ClaudeSonnet46.md
 docs/Flux2DevI2I.md
@@ -57,8 +53,6 @@ docs/Ltx23A2V.md
 docs/NanoBanana2.md
 docs/Qwen3635bA3b.md
 docs/Qwen3AsrFlash.md
-docs/Qwen3ForcedAligner06B.md
-docs/WordAlignment.md
 docs/ZImageTurbo.md
 git_push.sh
 project.yml
