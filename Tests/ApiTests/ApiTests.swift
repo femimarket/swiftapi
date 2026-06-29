@@ -52,7 +52,7 @@ struct ApiTests {
             let r = await Api.qwen3_6_35b_a3b(
                 user: user,
                 password: password,
-                messages: [(role: "User", content: "hi")]
+                messages: [(role: .user, content: "hi")]
             )
             #expect(r.last?.content == "Could not respond")
         }
@@ -97,7 +97,7 @@ struct ApiTests {
             let r = await Api.qwen3_6_35b_a3b(
                 user: "",
                 password: "",
-                messages: [(role: "User", content: "hi")]
+                messages: [(role: .user, content: "hi")]
             )
             #expect(r.last?.content == "Could not respond")
         }
@@ -144,7 +144,7 @@ struct ApiTests {
                 let r = await Api.qwen3_6_35b_a3b(
                     user: testUser,
                     password: testPassword,
-                    messages: [(role: "User", content: "write a long story")]
+                    messages: [(role: .user, content: "write a long story")]
                 )
                 return r.last?.content == "Could not respond" ? "ok" : "wrong"
             }
